@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <form action="form_process.html" method="post">
+    <table>
+        <tr>
+            <td>Username: </td>
+            <td><input type="text" name="username"></td>
+        </tr>
+        <tr>
+            <td>Password: </td>
+            <td><input type="password" name="password"></td>
+        </tr>
+        <tr>
+            <td>Hobbies: </td>
+            <td><input type="checkbox" name="hobbies">pub g 
+                <input type="checkbox" name="Hobbies">subg
+            </td>
+        </tr>
+        <tr>
+            <td>Gender: </td>
+            <td>
+                <input type="radio" name="Gender" value="m">Male
+                <input type="radio" name="Gender" value="f">Female
+                <input type="radio" name="Gender" value="o">Others
+            </td>
+        </tr>
+        <tr>
+            <td>Upload file:</td>
+            <td><input type="file" name="file_upload"></td>
+        </tr>
+        <tr>
+            <td align="center" colspan="2">
+                <input type="submit" value="submit"> 
+                <input type="reset" value="reset">
+            </td>
+        </tr>
+    </table>
+    <input type="hidden" name="hidden_id">
+</form>
+</body>
+</html>

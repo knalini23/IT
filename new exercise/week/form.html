@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <!-- <form action="url" method="GET">
+        username: <input type="text" name="username">
+        <br>
+        password: <input type="password" name="password">
+        <br>
+        hobbies:  <input type="checkbox" name="hobbies">Opt1
+        hobbies:  <input type="checkbox" name="hobbies">Opt2
+        hobbies:  <input type="checkbox" name="hobbies">Opt3
+        <br>
+        Gender: <input type="radio" name="Gender" value="m">Male
+        Gender: <input type="radio" name="Gender" value="f">Female
+        Gender: <input type="radio" name="Gender" value="o">Others
+        <br>
+        Submit: <input type="submit" value="submit">Submit
+        Reset: <input type="reset" value="res">Reset
+        <br>
+        Upload file: <input type="file" name="file_upload">Choose file
+        <br>
+        Hidden: <input type="hidden" name="hidden_id"> -->
+
+    <!-- <form action="to_send.html" name="form1" method="get">
+        <label for="say">What greeting do you want?</label>
+        <input type="text" size="25" name="say" id="say" maxlength="7"><br><br>
+        <label for="to">Who do you want to say it to?</label>
+        <input type="text" name="to" id="to">
+        <br>
+        <br>
+        <button>Send my greetings</button>
+        <br> -->
+
+    <form action="to_send.html" name="form1" method="get" enctype="multipart/form-data">
+        <label for="say">What greeting do you want to say?</label>
+        <input type="text" size="25" name="say" id="say" maxlength="20" placeholder="Please write the greeting ..">
+        <br>
+        <br>
+        <label for="to">Who do you want to greet?</label>
+        <input type="text" name="to" id="to" size="15">
+        <br>
+        <br>
+
+        Username: <input type="text" name="username">
+        <br>
+        Password: <input type="text" name="password">
+        <br>
+
+        Sport: <input type="checkbox" name="sports" id="" value="fb" checked>Football
+        <input type="checkbox" name="sports" id="" value="crk">Cricket
+        <input type="checkbox" name="sports" id="" value="dnd">Dandibiyo
+
+        <br>
+
+        Upload file: <input type="file" name="file_upload" id="">
+        <br>
+        <input type="hidden" name="Kathmandu">
+        <br>
+        <input type="image" src="pexels-annesophie-parent-2104881.jpg" alt="submit">
+
+        <input type="button" value="Send my regards">
+        <input type="reset" value="Clear the form">
+
+    </form>
+</body>
+</html>
